@@ -1,0 +1,27 @@
+<html>
+<body>
+
+<p id="demo"></p>
+
+<div>
+  <input size="3" oninput="checkAge(this.value)"/>
+  <span id="span" style="color:red">Invalid age</span>
+</div>
+
+
+
+<script>
+document.getElementById("demo").innerHTML = "Hello World";
+</script>
+
+<script>
+   function checkAge(val){
+		if(val > 0 && val <= 118)
+			document.getElementById("span").innerHTML = "";
+		else
+			document.getElementById("span").innerHTML = "Invalid age";
+}
+</script>
+
+</body>
+</html>

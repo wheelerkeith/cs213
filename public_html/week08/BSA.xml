@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bsa SYSTEM "BSA.dtd">
+<bsa>
+	<council>
+		<name>Council Name</name>
+		<troop>
+			<number>Troop Number</number>
+			<name>Troop Name</name>
+			<scout>
+				<firstName>Scout First Name</firstName>
+				<lastName>Scout Last Name</lastName>
+				<address>Address</address>
+				<phone>Phone</phone>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+			</scout>
+			<scout>
+				<firstName>Scout First Name</firstName>
+				<lastName>Scout Last Name</lastName>
+				<address>Address</address>
+				<phone>Phone</phone>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+			</scout>
+		</troop>
+		<troop>
+			<number>Troop Number</number>
+			<name>Troop Name</name>
+			<scout>
+				<firstName>Scout First Name</firstName>
+				<lastName>Scout Last Name</lastName>
+				<address>Address</address>
+				<phone>Phone</phone>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+			</scout>
+			<scout>
+				<firstName>Scout First Name</firstName>
+				<lastName>Scout Last Name</lastName>
+				<address>Address</address>
+				<phone>Phone</phone>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+			</scout>
+		</troop>
+	</council>
+	<council>
+		<name>Council Name</name>
+		<troop>
+			<number>Troop Number</number>
+			<name>Troop Name</name>
+			<scout>
+				<firstName>Scout First Name</firstName>
+				<lastName>Scout Last Name</lastName>
+				<address>Address</address>
+				<phone>Phone</phone>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+			</scout>
+			<scout>
+				<firstName>Scout First Name</firstName>
+				<lastName>Scout Last Name</lastName>
+				<address>Address</address>
+				<phone>Phone</phone>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+			</scout>
+		</troop>
+		<troop>
+			<number>Troop Number</number>
+			<name>Troop Name</name>
+			<scout>
+				<firstName>Scout First Name</firstName>
+				<lastName>Scout Last Name</lastName>
+				<address>Address</address>
+				<phone>Phone</phone>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+			</scout>
+			<scout>
+				<firstName>Scout First Name</firstName>
+				<lastName>Scout Last Name</lastName>
+				<address>Address</address>
+				<phone>Phone</phone>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<rank>
+					<name>Rank</name>
+					<date-earned>Date Earned</date-earned>
+				</rank>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+				<meritBadge>
+					<name>Badge</name>
+					<date-earned>Date Earned</date-earned>
+				</meritBadge>
+			</scout>
+		</troop>
+	</council>
+</bsa>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT ol (li+)>
+
+<!ELEMENT li (#PCDATA)>
+
+<!ATTLIST ol type (1|A|a|I|i) "1">
+
+<!ATTLIST li value CDATA #FIXED "X">

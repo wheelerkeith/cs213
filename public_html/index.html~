@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html style="background-color:LightGray;">
+  <head>
+    <style>
+      a:link    { color: black; }
+      a:visited { color: red;   }
+      a:hover   { color: blue;  text-decoration: underline; }
+      a:active  { color: green; text-decoration: underline; }
+    </style>
+    <title>Keith Wheeler's Assignments</title>
+    <h1>CS 213 Assignments</h1>
+  </head>
+  <body>
+    <ul style="text-align:center">
+    <li><a href="week02/index.html" target="_blank">Week 02</a></li>
+    <li><a href="week03/index.html" target="_blank">Week 03</a></li>
+    <li><a href="week04/index.html" target="_blank">Week 04</a></li>
+    <li><a href="week05/index.html" target="_blank">Week 05</a></li>
+    <li><a href="week06/index.html" target="_blank">Week 06</a></li>
+    <li><a href="week07/index.html" target="_blank">Week 07</a></li>
+    <li><a href="week08/index.html" target="_blank">Week 08</a></li>
+    <li><a href="week09/index.html" target="_blank">Week 09</a></li>
+    <li><a href="week10/index.html" target="_blank">Week 10</a></li>
+    <li><a href="week11/index.html" target="_blank">Week 11</a></li>
+    <li><a href="week12/index.html" target="_blank">Week 12</a></li>
+    <li><a href="week13/index.html" target="_blank">Week 13</a></li>
+    </ul>
+    <a href="week02/home.html" target="_blank">Keith's Page</a>
+    <br>
+
+    <img src="https://images-cdn.9gag.com/photo/aA1Bxzp_700b.jpg" alt="Yoda Wins" style="width: 460px; height: 252px;">
+    <br>
+
+    <img src="http:\\aleshadrew.com/wp-content/uploads/2015/03/A-selection-of-wisdom-from-The-Karate-Kids-Mr-Miyagi-1.jpg" alt="Mr Miyagi" style="width: 1176px; height: 808px;">
+  </body>
+</html>

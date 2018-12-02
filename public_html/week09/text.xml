@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl" ?>
+<bsa>
+	<council name="Chief Seattle Council">
+		<troop number="410" name="Lake Meridian">
+			<scout>
+				<fname>Billy</fname>
+				<lname>Sanchez</lname>
+				<address>
+					<street>124 Tacoma Ave.</street>
+					<city>Tacoma</city>
+					<state>Washington</state>
+				</address>
+				<phone>425-226-1111</phone>
+				<rank date-earned="2/15/2006" srank="Tenderfoot"/>
+				<rank date-earned="6/24/2008" srank="2ndClass"/>
+				<rank date-earned="7/7/2009" srank="1stClass"/>
+				<merit date-earned="2/15/2006">Cooking</merit>
+				<merit date-earned="2/16/2006">First Aid</merit>
+				<merit date-earned="11/02/2007">Swimming</merit>
+			</scout>
+			<scout>
+				<fname>John</fname>
+				<lname>Francis</lname>
+				<address>
+					<street>5588 Maple St. SE</street>
+					<city>Tacoma</city>
+					<state>Washington</state>
+				</address>
+				<phone>425-229-4343</phone>
+				<rank date-earned="7/15/2011" srank="1stClass"/>
+				<rank date-earned="8/07/2013" srank="Star"/>
+				<merit date-earned="4/15/20012">Bicycling</merit>
+				<merit date-earned="4/15/20012">Personal Management</merit>
+			</scout>
+		</troop>
+		<troop number="222" name="Tripple Duece">
+			<scout>
+				<fname>Larry</fname>
+				<lname>Wilderhalf</lname>
+				<address>
+					<street>7834 Club Ln.</street>
+					<city>Puyallup</city>
+					<state>Washington</state>
+				</address>
+				<phone>425-227-1223</phone>
+				<rank date-earned="4/07/2016" srank="Tenderfoot"/>
+			</scout>
+			<scout>
+				<fname>Darold</fname>
+				<lname>Stridenhoffer</lname>
+				<address>
+					<street>766 Laidback Cir.</street>
+					<city>Clawsgilgal</city>
+					<state>Washington</state>
+				</address>
+				<phone>425-236-5599</phone>
+				<rank date-earned="9/05/2011" srank="Life"/>
+				<rank date-earned="5/09/2013" srank="Eagle"/>
+				<merit date-earned="8/17/20013">Environmental Science</merit>
+				<merit date-earned="8/13/20014">Orienteering</merit>
+				<merit date-earned="8/15/20015">Camping</merit>
+				<merit date-earned="8/15/20015">Mountaineering</merit>
+			</scout>
+		</troop>
+	</council>
+</bsa>

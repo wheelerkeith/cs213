@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rogue Nation Cart</title>
+
+    <link rel="stylesheet" href="week07.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="week07.js"></script>
+  </head>
+  <body>
+    <div id="header">
+		<h1><a href="http://localhost/~furket/week04/work.html" title="Universal City BMW Repair 78148 | Rogue Nation Garage (615)567-6623 | Universal City,  TX">
+		<img src="https://goodlogo.com/images/logos/bmw_logo_2651.gif" alt="logo"></a></h1>
+	</div>
+	<div id="list">
+		<ul>
+			<li class="template-phone"><a href="tel:1-615-567-6623%20" style="">(615) 567-6623</a></li>
+			<li class="template-clock">Mon - Fri: 8:00AM - 5:00PM</li>
+			<li><a href="services1.html">Send a Request</a></li>
+			<li><a href="index.html">Rational Page</a></li>
+			<li><a href="week07.html">Purchase Page</a></li>
+		</ul>
+	</div>
+	
+	<form action="">
+		<div id="quotedServices">
+			<fieldset>
+				<legend>Services</legend>
+				<h3>Choose which services are required:</h3>
+					<input type="button" name="service"  onclick="toggleConfirm(70)" value="A/C">A/C<br>
+					<input type="button" name="service"  onclick="toggleConfirm(60)" value="Intake">Intake<br>
+					<input type="button" name="service"  onclick="toggleConfirm(60)" value="Exhaust">Exhaust<br>
+					<input type="button" name="service"  onclick="toggleConfirm(50)" value="Brakes">Brakes<br>
+					<input type="button" name="service"  onclick="toggleConfirm(50)" value="Driveline">Driveline<br>
+					<input type="button" name="service"  onclick="toggleConfirm(100)" value="Transmission">Transmission<br>
+					<input type="button" name="service"  onclick="toggleConfirm(3000)" value="ER">Engine Rebuild<br>
+					<input type="button" name="service"  onclick="toggleConfirm(1500)" value="CH">Cylinder Head<br>
+					<input type="button" name="service"  onclick="toggleConfirm(1000)" value="Wheels">Wheels<br>
+					<input type="button" name="service"  onclick="toggleConfirm(600)" value="Tires">Tires<br>
+					<input type="button" name="service"  onclick="toggleConfirm(50)" value="FS">Fuel System<br>
+					<input type="button" name="service"  onclick="toggleConfirm(50)" value="Subframe">Subframe<br>
+					<input type="button" name="service"  onclick="toggleConfirm(80)" value="BD">Body Damage<br>
+					<input type="button" name="service"  onclick="toggleConfirm(300)" value="Interior">Interior<br>
+					<input type="button" name="service"  onclick="toggleConfirm(50)" value="Electrical">Electrical<br>
+					<input type="button" name="service"  onclick="toggleConfirm(80)" value="Tuning">Tuning<br>
+					<input type="button" name="service"  onclick="toggleConfirm(10000)" value="FI">Forced Induction<br>
+			</fieldset>
+		</div>
+		
+		<div id="paymentAndShipping">
+			<div id="billing">
+				<h3>Billing Information:</h3>
+				
+				<span class="required field">
+					<label>First Name:</label>
+					<span class="invalidMessage" id="validBillingFName"></span>
+					<br/>
+					<input type="text" name="billingFName" onBlur="validateField(this.value, document.getElementById('validBillingFName'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Last Name:</label>
+					<span class="invalidMessage" id="validBillingLName"></span>
+					<br/>
+					<input type="text" name="billingLName" onBlur="validateField(this.value, document.getElementById('validBillingLName'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Card Number:</label>
+					<span class="invalidMessage" id="validCardNumber"></span>
+					<br/>
+					<input type="text" name="cardNumber" onBlur="validateCard(this.value, document.getElementById('validCardNumber'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Expiration Date:</label>
+					<span class="invalidMessage" id="validExpiration"></span>
+					<br/>
+					<input type="text" name="expirationMonth" class="month" maxlength="2" placeholder="mm" onBlur="validateMonth(this.value, document.getElementById('validExpiration'))"/>
+					<span>/</span>
+					<input type="text" name="expirationYear" class="year" maxlength="2" placeholder="yy" onBlur="validateYear(this.value, document.getElementById('validExpiration'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Billing Address Line 1:</label>
+					<span class="invalidMessage" id="validBillingAddress1"></span>
+					<br/>
+					<input type="text" name="billingAddress1" onBlur="validateField(this.value, document.getElementById('validBillingAddress1'))"/>
+				</span>
+				<br/>
+				<span class="field">
+					<label>Billing Address Line 2:</label>
+					<br/>
+					<input type="text" name="billingAddress2"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Billing City:</label>
+					<span class="invalidMessage" id="validBillingCity"></span>
+					<br/>
+					<input type="text" name="billingCity" onBlur="validateField(this.value, document.getElementById('validBillingCity'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>State:</label>
+					<span class="invalidMessage" id="validBillingState"></span>
+					<br/>
+					<input type="text" name="billingState" class="state" maxlength="2" onBlur="validateStates(this.value, document.getElementById('validBillingState'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Zip:</label>
+					<span class="invalidMessage" id="validBillingZip"></span>
+					<br/>
+					<input type="text" name="billingZip" class="zip" onBlur="validateZip(this.value, document.getElementById('validBillingZip'))"/>
+				</span>
+				<br/>
+				<span class="field">
+					<label>Phone Number:</label>
+					<br/>
+					<input type="text" name="billingPhone" onBlur="validateField()"/>
+				</span>
+				<br/><br/>
+      
+				<input type="checkbox" name="shippingCheckBox" id="shippingCheckBox" onclick="toggleShippingAddress()"/>
+					<label>My shipping address is different from my billing address</label>
+			</div>
+			
+			<div id="shipping">
+				<h3>Shipping Information:</h3>
+				
+				<span class="required field">
+					<label>First Name:</label>
+					<span class="invalidMessage" id="validShippingFName"></span>
+					<br/>
+					<input type="text" name="shippingFName" onBlur="validateField(this.value, document.getElementById('validShippingFName'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Last Name:</label>
+					<span class="invalidMessage" id="validShippingLName"></span>
+					<br/>
+					<input type="text" name="shippingLName" onBlur="validateField(this.value, document.getElementById('validShippingLName'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Shipping Address Line 1:</label>
+					<span class="invalidMessage" id="validShippingAddress1"></span>
+					<br/>
+					<input type="text" name="shippingAddress1" onBlur="validateField(this.value, document.getElementById('validShippingAddress1'))"/>
+				</span>
+				<br/>
+				<span class="field">
+					<label>Shipping Address Line 2:</label>
+					<br/>
+					<input type="text" name="shippingAddress2"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Shipping City:</label>
+					<span class="invalidMessage" id="validShippingCity"></span>
+					<br/>
+					<input type="text" name="shippingCity" onBlur="validateField(this.value, document.getElementById('validShippingCity'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>State:</label>
+					<span class="invalidMessage" id="validShippingState"></span>
+					<br/>
+					<input type="text" name="shippingState" class="state" maxlength="2" onBlur="validateStates(this.value, document.getElementById('validShippingState'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Zip:</label>
+					<span class="invalidMessage" id="validShippingZip"></span>
+					<br/>
+					<input type="text" name="shippingZip" class="zip" onBlur="validateZip(this.value, document.getElementById('validShippingZip'))"/>
+				</span>
+				<br/>
+				<span class="required field">
+					<label>Phone Number:</label>
+					<span class="invalidMessage" id="validShippingPhone"></span>
+					<br/>
+					<input type="text" name="shippingPhone" onBlur="validatePhone(this.value, document.getElementById('validShippingPhone'))"/>
+				</span>
+			</div>
+		</div>
+		
+		<div id="confirm">
+			<p>
+				Cost of Services: <span id="price"></span>
+				<br/>
+				Tax: <span id="tax"></span>
+				<br/>
+				Total: <span id="total"></span>
+			</p>
+
+			<button onclick="clickConfirmButton">Confirm Services</button>
+		</div>
+		
+		<br/>
+		
+		<input type="reset" value="Reset" onreset="reset()"/>
+	</form>
+  </body>
+</html>

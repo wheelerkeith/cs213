@@ -1,0 +1,35 @@
+
+	
+	#services { 
+		text-align: center;
+		text-size: 20px;
+	}
+	
+	#header { 
+		background-color: Orange; 
+	}
+	
+	#list {
+		background-color: lightblue;
+	}
+	
+	#requestForm {
+		font-family: Comic Sans MS;
+		text-size: 20px;
+		text-align: center;
+	}
+	
+	#services {
+		background-color: aqua;
+	}
+	
+	div {
+		border: 1px solid Black;
+		clear: both;
+	}
+	
+	body {
+		background-color: lightgreen;
+	}
+	
+	p { text-size: 18px; }

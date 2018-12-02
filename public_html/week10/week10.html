@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Week 10</title>
+		<link rel="stylesheet" type="text/css" href="w10.css">
+		<script type="text/javascript" src="w10.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<span>Cities</span>
+			<br />
+			<select id="countries">
+				<option value="usa">USA</option>
+				<option value="canada">Canada</option>
+				<option value="mexico">Mexico</option>
+				<option value="russia">Russia</option>
+			</select>
+			<br />
+			<button onclick="cityInfo(document.getElementById('countries').value)">View</button>
+			<br />
+			<pre id="city"></pre>
+		</div>
+		<div>
+			<span>Students</span>
+			<br />
+			<input type="text" id="studentInput" value="json.txt" />
+			<br />
+			<button onclick="studentInfo(document.getElementById('studentInput').value)">View</button>
+			<br />
+			<table id="student">
+			</table>
+		</div>
+	</body>
+</html>

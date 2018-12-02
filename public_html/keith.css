@@ -1,0 +1,17 @@
+<!-- Style 1 written by Keith Wheeler -->
+<style> /* #1 */
+body { font-size:20px; background-image: url("https://wallpaperscraft.com/image/batman_minimalism_comics_69253_1920x1080.jpg"); background-size: cover;  }
+h1 { animation: rainbow 1s infinite; font_family: Comic Sans MS, Trebuchet Ms; }
+	p { font-family: Bookman, Helvetica }
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+	}
+#sidebar { text-shadow: 5px 7px #ff6699; }
+
+<p><strong>Style one:</strong> This is a custom style designed by Keith Wheeler for CS213. The idea was to create a style for a page using CSS for learning purposes. <br>The font size has been changed so that it is a little easier to read. 
+The background image is of Batman, the creators favorite super hero, feeding some bats on a park bench. It is set to cover so that it will fit the screen. The h1 elements are set to iterate through the rainbow colors in the font-color, with a font-family of Comic Sans Ms to soften the text. The p font-family is
+a Bookman to be web text friendly. The final change is giving the sidebar id a text-shadow to show the 3d effects created by some properties. 
